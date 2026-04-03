@@ -1,0 +1,21 @@
+# PostgreSQL connection settings
+postgres:
+  host: localhost
+  port: 5432
+  database: mydb
+  user: postgres
+  password: null  # Set via environment variable in production
+
+# MCP server configuration
+mcp:
+  command: npx
+  args:
+    - -y
+    - "@modelcontextprotocol/postgres"
+  env:
+    DATABASE_URL: postgresql://localhost/mydb
+
+# Documentation output settings
+output:
+  base_dir: docs
+  database_subdir: database
