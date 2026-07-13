@@ -1,10 +1,10 @@
-# Dilly
+# schemascribe
 
 Autonomous documentation agent for PostgreSQL schemas.
 
 ## Overview
 
-Dilly generates living technical documentation from PostgreSQL database schemas. It connects to your database via MCP (Model Context Protocol), introspects the schema structure, and produces clean Markdown documentation.
+schemascribe generates living technical documentation from PostgreSQL database schemas. It connects to your database via MCP (Model Context Protocol), introspects the schema structure, and produces clean Markdown documentation.
 
 ## Phase 1 Status
 
